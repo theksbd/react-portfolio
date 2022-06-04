@@ -12,7 +12,7 @@ function Footer() {
                 <a href="https://github.com/theksbd" target="_blank" rel="noopener noreferrer"><GithubIcon /></a>
                 <a href="https://www.linkedin.com/in/ho%C3%A0ng-%C4%91%E1%BB%97-thi%E1%BB%87n-4b77b8228/" target="_blank" rel="noopener noreferrer"><LinkedInIcon /></a>
             </div>
-            <p>&copy; 2022 Do Thien Hoang - theksbd</p>
+            <p>&copy; 2022 Đỗ Thiện Hoàng - theksbd</p>
         </div>
     );
 }
