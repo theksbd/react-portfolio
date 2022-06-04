@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/theksbd/react-portfolio/static/css/main.dbb20c0a.css",
+    "main.js": "/theksbd/react-portfolio/static/js/main.9e6c4da6.js",
+    "static/js/787.a2cb61a6.chunk.js": "/theksbd/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/proj6.png": "/theksbd/react-portfolio/static/media/proj6.bbda91ca7f209247913f.png",
+    "static/media/proj5.jpg": "/theksbd/react-portfolio/static/media/proj5.0648813998893b8c53d0.jpg",
+    "static/media/proj3.webp": "/theksbd/react-portfolio/static/media/proj3.419d7d3eb4e124126660.webp",
+    "static/media/proj2.jpg": "/theksbd/react-portfolio/static/media/proj2.496e4d289eaa0f409ab8.jpg",
+    "static/media/profile.png": "/theksbd/react-portfolio/static/media/profile.97404da9fbf5132b5660.png",
+    "static/media/proj1.jpg": "/theksbd/react-portfolio/static/media/proj1.3fb0bdc7583872ea12b3.jpg",
+    "static/media/proj4.webp": "/theksbd/react-portfolio/static/media/proj4.21aa3100d2e1859f6029.webp",
+    "index.html": "/theksbd/react-portfolio/index.html",
+    "main.dbb20c0a.css.map": "/theksbd/react-portfolio/static/css/main.dbb20c0a.css.map",
+    "main.9e6c4da6.js.map": "/theksbd/react-portfolio/static/js/main.9e6c4da6.js.map",
+    "787.a2cb61a6.chunk.js.map": "/theksbd/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbb20c0a.css",
+    "static/js/main.9e6c4da6.js"
+  ]
+}
