@@ -18,7 +18,7 @@ export const ProjectList = [
     skills: "ReactJS, NodeJS, ExpressJS, MongoDB",
     src: {
       code: "https://github.com/theksbd/mern-doctor-appointment",
-      preview: "https://mern-doctor-appoinment.onrender.com/",
+      preview: "https://mern-doctor-appointment.vercel.app/",
     },
   },
   {
