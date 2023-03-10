@@ -11,12 +11,7 @@ function ProjectDisplay() {
   return (
     <div className="project">
       <h1>{project.name}</h1>
-      <img
-        src={project.image}
-        alt="project"
-        // width={project.name === "Green House" ? "10%" : "100%"}
-        width="10%"
-      />
+      <img src={project.image} alt="project" />
       <div className="btn-container">
         <a
           className="btn"
