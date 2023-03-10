@@ -7,7 +7,7 @@ export const ProjectList = [
     skills: "ReactJS, NodeJS, ExpressJS, MySQL",
     src: {
       code: "https://github.com/theksbd/green-house",
-      preview: "https://github.com/theksbd/green-house",
+      preview: "https://green-house-pied.vercel.app/",
     },
   },
   {
