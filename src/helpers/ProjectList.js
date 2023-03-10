@@ -28,7 +28,7 @@ export const ProjectList = [
   },
   {
     id: 3,
-    name: "MovieLand",
+    name: "MERN Doctor Appointment",
     image: Proj3,
     skills: "ReactJS",
     src: {
