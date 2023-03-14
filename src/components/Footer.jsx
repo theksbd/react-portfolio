@@ -13,7 +13,7 @@ function Footer() {
     <div className="footer">
       <div className="socialMedia">
         <a
-          href="https://www.facebook.com/kids.the.5/"
+          href="https://www.facebook.com/hoang.do1909/"
           target="_blank"
           rel="noopener noreferrer"
         >
