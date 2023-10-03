@@ -40,8 +40,7 @@ function Footer() {
         >
           <MdEmail />
         </a>
-        <a
-          href='https://www.linkedin.com/in/hoang-do-4b77b8228/'
+        <a href='https://www.linkedin.com/in/hoang-do-thien-4b77b8228'
           target='_blank'
           rel='noopener noreferrer'
         >
