@@ -13,9 +13,8 @@ function Projects() {
             <ProjectItem
               key={project.id}
               id={project.id}
-              name={project.name}
+              subName={project.subName}
               image={project.image}
-              src={project.src}
             />
           );
         })}

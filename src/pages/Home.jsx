@@ -1,5 +1,6 @@
 import profile from '../images/profile.png';
 import '../styles/Home.css';
+import { Skills } from '../helpers/Skills';
 
 function Home() {
   const hour = new Date().getHours();
@@ -29,7 +30,7 @@ function Home() {
       <div className='skills'>
         <h1>Skills</h1>
         <ol className='list'>
-          <li className='item'>
+          {/* <li className='item'>
             <h2>Languages</h2>
             <span>Javascript, Typescript, Java</span>
           </li>
@@ -58,7 +59,13 @@ function Home() {
               710 TOEIC (Listening & Reading), Clean Code, Time Management,
               Problem‑solving, Teamwork, Presentation.
             </span>
-          </li>
+          </li> */}
+          {Skills.map(skill => (
+            <li className='item' key={skill.id}>
+              <h2>{skill.title}</h2>
+              <span>{skill.skills.join(', ')}</span>
+            </li>
+          ))}
         </ol>
       </div>
     </div>

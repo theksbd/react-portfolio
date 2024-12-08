@@ -24,14 +24,26 @@ function ProjectDisplay() {
           </a>
         )}
 
-        <a
-          className='btn'
-          href={project.src.preview}
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          <AiFillPlayCircle />
-        </a>
+        {project.src.preview === null ? null : (
+          <a
+            className='btn'
+            href={project.src.preview}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <AiFillPlayCircle />
+          </a>
+        )}
+        {project.src.code === null && project.src.preview === null ? (
+          <p
+            style={{
+              color: '#d12e5f',
+              fontSize: '1rem'
+            }}
+          >
+            Source code and preview are not available due to privacy reasons
+          </p>
+        ) : null}
       </div>
       <div className='project-detail'>
         <p>
