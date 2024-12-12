@@ -1,12 +1,12 @@
 import React from 'react';
 import { AiFillGithub, AiFillPlayCircle } from 'react-icons/ai';
 import { useParams } from 'react-router-dom';
-import { ProjectList } from '../helpers/ProjectList';
+import { PROJECTS } from '../data/Projects';
 import '../styles/ProjectDisplay.css';
 
 function ProjectDisplay() {
   const { id } = useParams();
-  const project = ProjectList.find(project => project.id === parseInt(id));
+  const project = PROJECTS.find(project => project.id === parseInt(id));
 
   return (
     <div className='project'>

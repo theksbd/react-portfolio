@@ -1,4 +1,4 @@
-export const Skills = [
+export const SKILLS = [
   {
     id: 1,
     title: 'Programming Languages',
@@ -7,7 +7,7 @@ export const Skills = [
   {
     id: 2,
     title: 'Frontend',
-    skills: ['ReactJS (Redux, React Query,...)', 'Angular', 'VueJS']
+    skills: ['React.js', 'Angular', 'Vue.js']
   },
   {
     id: 3,
@@ -15,8 +15,8 @@ export const Skills = [
     skills: [
       'Java',
       'Spring/Spring Boot',
-      'NodeJS',
-      'ExpressJS',
+      'Node.js',
+      'Express.js',
       'SQL (MySQL, PostgreSQL)',
       'NoSQL (MongoDB)'
     ]
@@ -43,7 +43,7 @@ export const Skills = [
       '240/400 TOEIC (Speaking & Writing)',
       'Clean Code',
       'Time Management',
-      'Problem‑solving',
+      'Problem-solving',
       'Teamwork',
       'Presentation'
     ]

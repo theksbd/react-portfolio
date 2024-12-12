@@ -1,13 +1,13 @@
-export const Experience = [
+export const EXPERIENCES = [
   {
     id: 4,
     type: 'work',
     date: '12/2024 - Present',
     title: 'Java Developer - CMC Global Company Limited',
     location: 'District 7, Ho Chi Minh City',
-    overview: null,
-    description: null,
-    technicalSkills: null
+    overview: null, // TODO: Update soon
+    description: null, // TODO: Update soon
+    technicalSkills: null // TODO: Update soon
   },
   {
     id: 3,

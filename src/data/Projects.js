@@ -1,4 +1,4 @@
-export const ProjectList = [
+export const PROJECTS = [
   {
     id: 1,
     name: 'EXEX - Production Management Software',
@@ -26,7 +26,7 @@ export const ProjectList = [
     subName: 'GCS',
     image:
       'https://github.com/theksbd/react-portfolio/blob/master/src/assets/systemexe.jpg?raw=true',
-    skills: 'Vue, Java, Spring, Oracle SQL',
+    skills: 'Vue.js, Java, Spring, Oracle SQL',
     src: {
       code: null,
       preview: null

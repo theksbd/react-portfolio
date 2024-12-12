@@ -1,6 +1,6 @@
+import { SKILLS } from '../data/Skills';
 import profile from '../images/profile.png';
 import '../styles/Home.css';
-import { Skills } from '../helpers/Skills';
 
 function Home() {
   const hour = new Date().getHours();
@@ -30,37 +30,7 @@ function Home() {
       <div className='skills'>
         <h1>Skills</h1>
         <ol className='list'>
-          {/* <li className='item'>
-            <h2>Languages</h2>
-            <span>Javascript, Typescript, Java</span>
-          </li>
-          <li className='item'>
-            <h2>Frontend</h2>
-            <span>
-              HTML5, CSS3, SCSS, Bootstrap, ReactJS (Redux, React Query,...)
-            </span>
-          </li>
-          <li className='item'>
-            <h2>Backend</h2>
-            <span>
-              NodeJS, ExpressJS, SQL (MySQL, PostgreSQL), NoSQL (MongoDB)
-            </span>
-          </li>
-          <li className='item'>
-            <h2>Miscellaneous</h2>
-            <span>
-              OOP, Data Structures and Algorithms, Git, Firebase, Linux, Prisma,
-              Firebase, Auth0, Unit Testing
-            </span>
-          </li>
-          <li className='item'>
-            <h2>Soft Skills</h2>
-            <span>
-              710 TOEIC (Listening & Reading), Clean Code, Time Management,
-              Problem‑solving, Teamwork, Presentation.
-            </span>
-          </li> */}
-          {Skills.map(skill => (
+          {SKILLS.map(skill => (
             <li className='item' key={skill.id}>
               <h2>{skill.title}</h2>
               <span>{skill.skills.join(', ')}</span>
