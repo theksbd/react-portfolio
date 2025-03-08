@@ -1,6 +1,28 @@
 export const PROJECTS = [
   {
     id: 1,
+    name: 'GBST - Wealth Management Software',
+    subName: 'GBST',
+    image:
+      'https://github.com/theksbd/react-portfolio/blob/master/src/assets/gbst.jpg?raw=true',
+    skills: 'TypeScript, Java, React.js, Ember.js, Spring Boot, Git, Linux',
+    src: {
+      code: null,
+      preview: null
+    },
+    description:
+      'Web application that helps financial companies manage their business',
+    teamMembers: 20,
+    responsibilities: [
+      'Receive requirements/tasks from the Product Owner, Business Analyst and Team Lead',
+      'Develop new features, fix bugs, refactor code, write unit tests for API code and tSQLt tests for Stored Procedures',
+      'Participate in the code review process',
+      'Work with the QA team to resolve issues',
+      'Support the deployment process'
+    ]
+  },
+  {
+    id: 2,
     name: 'EXEX - Production Management Software',
     subName: 'EXEX',
     image:
@@ -21,7 +43,7 @@ export const PROJECTS = [
     ]
   },
   {
-    id: 2,
+    id: 3,
     name: 'GCS - Real Estate Management Software',
     subName: 'GCS',
     image:
@@ -40,7 +62,7 @@ export const PROJECTS = [
     ]
   },
   {
-    id: 3,
+    id: 4,
     name: 'BK-Mathgorithm',
     subName: 'BK-Mathgorithm',
     image:
@@ -65,7 +87,7 @@ export const PROJECTS = [
     ]
   },
   {
-    id: 4,
+    id: 5,
     name: 'Green House',
     subName: 'Green House',
     image:

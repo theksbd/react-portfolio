@@ -5,9 +5,23 @@ export const EXPERIENCES = [
     date: '12/2024 - Present',
     title: 'Java Developer - CMC Global Company Limited',
     location: 'District 7, Ho Chi Minh City',
-    overview: null, // TODO: Update soon
-    description: null, // TODO: Update soon
-    technicalSkills: null // TODO: Update soon
+    overview:
+      'Deliver technology and digital solutions to enable, support and scale wealth management organizations globally',
+    description: [
+      'Apply microservices and micro frontend for our project',
+      'Collaborate with the DevOps team on microservices design, containerization, and automated deployments',
+      'Build automated test suites to ensure these services are reliable and performant',
+      'Apply Agile/SCRUM methodology'
+    ],
+    technicalSkills: [
+      'TypeScript',
+      'Java',
+      'React.js',
+      'Ember.js',
+      'Spring Boot',
+      'Git',
+      'Linux'
+    ]
   },
   {
     id: 3,
